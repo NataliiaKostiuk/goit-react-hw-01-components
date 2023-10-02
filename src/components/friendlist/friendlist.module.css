@@ -1,0 +1,38 @@
+.friendslist{
+    width: 330px;
+    background-color: bisque;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    
+}
+.friendimg{
+    width: 70px;
+    border-radius: 50%;
+    background-color: aquamarine;
+}
+.frienditem{
+    background-color: aliceblue;
+    border: 1px solid;
+    border-color: blueviolet;
+    border-radius: 7%;
+    display: flex;
+    flex-direction: row;
+    gap: 17px;
+    justify-content:flex-start;
+    margin-bottom: 5px;
+    position: relative;
+}
+.friendstatus{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 10px;
+    left: 60px;
+}
+.friendname{
+    font-size: xx-large;
+    font-weight: 500;
+
+}
